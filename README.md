@@ -1,21 +1,32 @@
-# Assignment 1: Introduction to C# with Basic Functions
-Welcome to your revised first assignment in C#.
-You'll start with a basic "Hello World" program, then move on to using lists, flow control, and finally, functions. 
-Remember, we're building up our skills step by step.
+# Assignment 2 - Classes, Generalization, and Interfaces
 
-## Objectives:
- Write a simple "Hello World" program.
- Create and manipulate lists.
- Implement basic flow control.
- Understand and use simple functions.
- 
-## Tasks:
-### 1. Hello World
-Create a C# program that prints "Hello, World!" to the console. This will be your warm-up task without using functions.
-### 2. Working with Lists
-Create a list of integers.
-Add at least five different numbers to your list.
-Write a function PrintList that takes a list as a parameter and prints each number in the list to the console in a loop.
-### 3. Flow Control with Functions
-Write a function ClassifyNumber that takes an integer as a parameter and returns whether the number is positive, negative, or zero.
-In your main program, use this function to classify a set of numbers (e.g., -2, 0, 3, 5) and print the results to the console.
+## Overview
+
+In this assignment, you will dive into object-oriented programming concepts, including classes, generalization (inheritance), and interfaces in C#.
+You will create a program that demonstrates your understanding of these concepts.
+
+## Tasks
+
+### Task 1: Create a Base Class
+
+1. Create a base class named `Shape`.
+2. Add properties and methods to the `Shape` class that are common to all shapes. These could include properties like `Area` and `Perimeter`.
+
+### Task 2: Create Specialized Classes
+
+1. Create at least two derived classes that inherit from the `Shape` class. Examples of shapes could be `Circle` and `Rectangle`.
+2. Each derived class should have its properties and methods specific to that shape. For example, a `Circle` might have a `Radius` property, and a `Rectangle` might have `Width` and `Height` properties.
+
+### Task 3: Implement Interfaces
+
+1. Create one or more interfaces related to shapes. For example, you could have an `IShape` interface with methods like `CalculateArea` and `CalculatePerimeter`.
+2. Implement these interfaces in your derived classes.
+
+### Task 4: Use the Classes
+
+1. In your `Main` method or a separate program, create instances of your shapes (e.g., circles and rectangles).
+2. Demonstrate how you can use the properties and methods of the base class and derived classes.
+
+
+
+
